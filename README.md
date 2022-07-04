@@ -27,7 +27,7 @@ The dataset of choice for this project is from Kaggle: https://www.kaggle.com/da
 All the code needed has been provided for each step.
 
 # Data Pipeline diagram:
-
+![pipeline diagram](https://user-images.githubusercontent.com/66104960/177219460-270fc3dd-2e44-4e29-96e5-c0af07359bea.JPG)
 
 # Prerequisites
 Software required to run the project, please install:
