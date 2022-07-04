@@ -1,7 +1,7 @@
 # ETLDataPipeline
 ETL data pipeline example on a local computer
 
-# 'ETL Data pipeline Project'
+# 'ETL Data Pipeline Project': Document Streaming
 Hey! Welcome to this repository where I practice building a data engineering pipeline. You can find here the basics to run down of the project:
 
 # Problem Statement
