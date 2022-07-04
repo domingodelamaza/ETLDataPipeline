@@ -1,0 +1,20 @@
+# Verificar que todo el Docker container ejecutado esten en la misma network, en CMD Windows:
+> docker run --rm --network document-streaming-main_default --name my-api-ingest -p 80:80 api-ingest
+
+# En caso que Kafka no esté recibiendo mensajes, probar esto:
+# Esto sirve para que Kafka reciba en su nodo consumidor información, ya que al parecer mi main.py no hacia "reload" 
+
+Deployment Concepts
+These examples run the server program (e.g Uvicorn), starting a single process, listening on all the IPs (0.0.0.0) on a predefined port (e.g. 80).
+
+This is the basic idea. But you will probably want to take care of some additional things, like:
+
+Security - HTTPS
+Running on startup
+Restarts
+Replication (the number of processes running)
+Memory
+Previous steps before starting
+
+> pip install "hypercorn[trio]"
+> hypercorn main:app --worker-class trio
